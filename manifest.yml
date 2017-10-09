@@ -1,4 +1,4 @@
 ---
 applications:
-  - name: Jenkins_Demo
+  - name: Jenkins-demo
     path: target/Jenkins-demo-0.0.1-SNAPSHOT.jar
