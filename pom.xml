@@ -43,18 +43,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		</plugins>
-	</build>
-	
-	<profiles>
-   <profile>
-      <id>jib</id>
-      <activation>
-         <activeByDefault>false</activeByDefault>
-      </activation>
-      <build>
-         <plugins>
-            <plugin>
+			<plugin>
                <groupId>com.google.cloud.tools</groupId>
                <artifactId>jib-maven-plugin</artifactId>
                <version>3.3.1</version>
@@ -62,9 +51,7 @@
                   <to>poseidon1979/jenkins-demo</to>
                </configuration>
             </plugin>
-         </plugins>
-      </build>
-   </profile>
-</profiles>
+		</plugins>
+	</build>
 
 </project>
