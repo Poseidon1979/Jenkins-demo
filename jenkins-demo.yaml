@@ -5,7 +5,7 @@ metadata:
   labels:
     run: jenkins-demo
   name: jenkins-demo
-  namespace: demo
+  namespace: platform-test
 spec:
   containers:
   - image: poseidon1979/jenkins-demo
